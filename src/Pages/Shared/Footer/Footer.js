@@ -9,19 +9,19 @@ const Footer = () => {
                     <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
 
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className=" font-extrabold text-5xl text-gray-900 tracking-widest mb-3">Tax Advisor</h2>
+                            <h2 className=" font-extrabold text-5xl text-gray-900 tracking-widest mb-3">IT Patshala</h2>
                             <p>Come and take a helping hand.</p>
                         </div>
 
 
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Register Sevices</h2>
+                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Register Courses</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <Link to='/addservices' className="text-gray-600 hover:text-gray-800">Add Servies</Link>
+                                    <Link to='/addservices' className="text-gray-600 hover:text-gray-800">Add Courses</Link>
                                 </li>
                                 <li>
-                                    <a href="/services" className="text-gray-600 hover:text-gray-800">Watch Service Details</a>
+                                    <a href="/services" className="text-gray-600 hover:text-gray-800">Watch Course Details</a>
                                 </li>
                                 <li>
                                     <Link to='/myreviews' className="text-gray-600 hover:text-gray-800">Add Review</Link>
@@ -48,7 +48,7 @@ const Footer = () => {
                         </div>
 
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Services</h2>
+                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Courses</h2>
                             <nav className="list-none mb-10">
                                 <li>
                                     <a href="/" className="text-gray-600 hover:text-gray-800">Income Tax</a>
@@ -103,8 +103,8 @@ const Footer = () => {
                 </div>
                 <div className="bg-gray-100">
                     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                        <p className="text-gray-500 text-sm text-center sm:text-left">© 2022 Tax Advisor - BD</p>
-                        <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">Developed by Amit Kumar Sutradhar</span>
+                        <p className="text-gray-500 text-sm text-center sm:text-left">© 2022 IT Patshala- BD</p>
+                        <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">Developed by Majba Uddin </span>
                     </div>
                 </div>
             </footer>
