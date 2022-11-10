@@ -52,8 +52,8 @@ const ServiceDetail = () => {
 
             <h2>Part 1</h2>
             <div className="card card-compact mx-auto w-1/2 mt-10 bg-base-100 shadow-xl">
-                {/* <figure><img src={img} alt="Shoes" /></figure> */}
-                {/* <div className="card-body">
+                <figure><img src={img} alt="Shoes" /></figure>
+                <div className="card-body">
                     <h2 className="card-title">{title}</h2>
                     <p className='text-2xl text-orange-600 font-semibold'>Price: ${price}</p>
                     <div className="card-actions justify-end">
@@ -61,7 +61,7 @@ const ServiceDetail = () => {
                             <button className="btn btn-dark">View Details</button>
                         </Link>
                     </div>
-                </div> */}
+                </div>
                 <Card>
                     <CardHeader color="blue" className="relative h-56">
                         <PhotoProvider>

@@ -10,7 +10,7 @@ const ServiceBox = ({ service }) => {
     return (
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
 
-            {/* <PhotoProvider>
+            <PhotoProvider>
                 <PhotoView src={img}>
                     <img src={img} alt="" />
                 </PhotoView>
@@ -24,7 +24,7 @@ const ServiceBox = ({ service }) => {
                         <button className="btn btn-dark">View Details</button>
                     </Link>
                 </div>
-            </div> */}
+            </div>
 
 
             <Card className="w-96">
