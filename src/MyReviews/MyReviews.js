@@ -19,9 +19,9 @@ const MyReviews = () => {
         <div>
             <h2>No reviews were added.</h2>
             <div className="reviews">
-                {/* {
+                {
                     allReviews.map(review => <p>{review.message}</p>)
-                } */}
+                }
             </div>
 
 
