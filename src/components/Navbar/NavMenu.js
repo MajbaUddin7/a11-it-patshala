@@ -57,7 +57,7 @@ export default function NavMenu() {
             {
                 user?.email ?
                     <>
-                        {/* <Link className='ms-4' to="/profile">
+                        <Link className='ms-4' to="/profile">
                             {user?.photoURL ?
                                 <img
                                     style={{ height: '40px', width: '40px' }}
@@ -66,7 +66,7 @@ export default function NavMenu() {
                                 </img>
                                 : <>{user.email}</>
                             }
-                        </Link> */}
+                        </Link>
                         <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
                             <Typography
                                 as="li"
@@ -110,12 +110,12 @@ export default function NavMenu() {
                     className="mr-4 cursor-pointer py-1.5 font-normal"
                 >
                     <span>It Pathshala</span>
-                    {/* <span>Material Tailwind</span> */}
+                    <span>Material Tailwind</span>
                 </Typography>
                 <div className="hidden lg:block">{navList}</div>
-                {/* <Button variant="gradient" size="sm" className="hidden lg:inline-block">
+                <Button variant="gradient" size="sm" className="hidden lg:inline-block">
                     <span>Buy Now</span>
-                </Button> */}
+                </Button>
                 <IconButton
                     variant="text"
                     className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
